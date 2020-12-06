@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memberlists",
+  "info": {
+    "name": "Memberlist"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Birthday": {
+      "type": "datetime"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Phone": {
+      "type": "biginteger"
+    },
+    "Adress": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/news-and-blogs",
+      "handler": "news-and-blogs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/news-and-blogs/count",
+      "handler": "news-and-blogs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/news-and-blogs/:id",
+      "handler": "news-and-blogs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/news-and-blogs",
+      "handler": "news-and-blogs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/news-and-blogs/:id",
+      "handler": "news-and-blogs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/news-and-blogs/:id",
+      "handler": "news-and-blogs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

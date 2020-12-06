@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/memberlists",
+      "handler": "memberlist.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/memberlists/count",
+      "handler": "memberlist.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/memberlists/:id",
+      "handler": "memberlist.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/memberlists",
+      "handler": "memberlist.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/memberlists/:id",
+      "handler": "memberlist.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/memberlists/:id",
+      "handler": "memberlist.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

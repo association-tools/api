@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "overviews",
+  "info": {
+    "name": "Overview",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}
